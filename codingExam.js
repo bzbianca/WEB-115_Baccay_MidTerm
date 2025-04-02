@@ -31,10 +31,10 @@ function calculate(loanAmount, fixedInterest, loanTerm) {
         interestMortgage.innerHTML(interestAmount)
 
         let amountMortgage = document.createElement("p")
-        amountMortgage.innerHTML()
+        amountMortgage.innerHTML(newLoan + interestAmount)
 
-        let mortgage = document.createElement("p")
-        mortgage.innerHTML(loan)
+        let Totalmortgage = document.createElement("p")
+        Totalmortgage.innerHTML()
 
 
     }
